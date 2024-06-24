@@ -4,18 +4,18 @@
 }
 
 .allcode{
-height: 950px;
-width: 100%;
-background-color: aqua;
+    height: 1000px;
+    width: 100%;
+
 }
 
 .header{
-height: 12%;
-width: 100%;
-background-color: blueviolet;
-display: flex;
-justify-content: center;
-align-items: center;
+    height: 12%;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
@@ -24,10 +24,10 @@ align-items: center;
     background-color: yellowgreen;
 }
 
-.mainlogo{
-margin-top: -11%;
-margin-left: 20%;
-height: 250px;
+.mainlogo {
+    margin-top: -11%;
+    margin-left: 20%;
+    height: 250px;
 
 }
 
@@ -38,7 +38,7 @@ height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-   gap: 10%;
+    gap: 10%;
 }
 
 .about_us a{
@@ -46,25 +46,25 @@ height: 250px;
     text-decoration: none;
 }
 
-.fa-magnifying-glass{
+.fa-magnifying-glass {
     font-size: 35px;
     color: aliceblue;
 }
 
 .registration{
-height: 100%;
-width: 33%;
-background-color: sienna;  
-display: flex;
-justify-content: center;
-align-items: center;
-justify-content: center; 
-gap: 10%;
+    height: 100%;
+    width: 33%;
+    background-color: sienna;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
 }
 
 .fa-youtube{
-font-size: 75px;
-color: rgb(220, 20, 20);
+    font-size: 75px;
+    color: rgb(220, 20, 20);
 
 }
 
@@ -74,73 +74,186 @@ color: rgb(220, 20, 20);
     align-items: center;
 }
 
-.content{
-height: 70%;
-width: 100%;
-background-color: yellow;
-display: flex;
-justify-content: center;
-align-items: center;
+.content {
+    height: 80%;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .empty1{
-height: 100%;
-width: 15%;
-background-color: tomato;
+    height: 100%;
+    width: 15%;
+    background-color: tomato;
 }
 
 .main_content{
-height: 100%;
-width: 70%;
-background-color: brown;
+    height: 100%;
+    width: 70%;
+    background-color: brown;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #444;
+    background-color: rgba(0, 0, 0, 0.253);
+    margin-bottom: 5%;
+}
+
+.yazilar1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list1 a {
+    text-decoration: none;
+    color: yellowgreen;
+
+}
+
+.image1 h2 {
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+.image1 img{
+    width: 60px;
+    height: 60px;
+
+}
+
+.card2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #444;
+    background-color: rgba(0, 0, 0, 0.253);
+    margin-bottom: 5%;
+}
+
+.yazilar2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list2 a{
+    text-decoration: none;
+    color: yellowgreen;
 }
 
 
-
-
-
-
-
-.empty2{
-height: 100%;
-width: 15%;
-background-color: tomato;
+.image2 h2 {
+    margin-top: 10px;
+    font-size: 18px;
 }
 
-.footer{
-height: 18%;
-width: 100%;
-background-color: steelblue;
+.image2 img {
+    width: 60px;
+    height: 60px;
+}
+
+
+.card3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #444;
+    background-color: rgba(0, 0, 0, 0.253);
+    margin-bottom: 5%;
+}
+
+.yazilar3{
 display: flex;
-justify-content: center;
+flex-direction: column;
 align-items: center;
 }
 
-.logo2{
-height: 100%;
-width: 25%;
-background-color: turquoise;
+.list3 a{
+text-decoration: none;
+color: yellowgreen;
+}
+
+.image3 h2{
+margin-top: 10px;
+font-size: 18px;
+}
+
+.image3 img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.empty2 {
+    height: 100%;
+    width: 15%;
+    background-color: tomato;
+}
+
+.footer {
+    height: 8%;
+    width: 100%;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    height: 100%;
+    width: 25%;
+    background-color: turquoise;
 }
 
 .download{
-height: 100%;
-width: 25%;
-background-color: royalblue;
+    height: 100%;
+    width: 25%;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.download a{
+    color: yellowgreen;
+    text-decoration: none;
+    gap: 10%;
+}
+
+
 .customer{
-height: 100%;
-width: 25%;
-background-color: chocolate;
+    height: 100%;
+    width: 25%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer a{
+
+color: aliceblue;
+text-decoration: none;
 }
 
 .s_media{
     height: 100%;
     width: 25%;
-    background-color: crimson;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
 }
 
-
-
-
-
+.s_media a{
+color: antiquewhite;
+font-size: 20px;
+}
