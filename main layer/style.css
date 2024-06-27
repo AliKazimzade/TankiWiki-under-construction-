@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+body{
+    background-image: url(./images/main\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 .allcode{
     height: 1000px;
     width: 100%;
@@ -12,7 +20,8 @@
 .header{
     height: 12%;
     width: 100%;
-    background-color: blueviolet;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-bottom: 1px #444;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +30,7 @@
 .logo{
     height: 100%;
     width: 33%;
-    background-color: yellowgreen;
+    
 }
 
 .mainlogo {
@@ -34,7 +43,6 @@
 .about_us{
     height: 100%;
     width: 33%;
-    background-color: skyblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +62,6 @@
 .registration{
     height: 100%;
     width: 33%;
-    background-color: sienna;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,10 +69,9 @@
     gap: 10%;
 }
 
-.fa-youtube{
-    font-size: 75px;
+.registration i{
+    font-size: 50px;
     color: rgb(220, 20, 20);
-
 }
 
 .encyclopedia{
@@ -77,7 +83,6 @@
 .content {
     height: 80%;
     width: 100%;
-    background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,14 +90,12 @@
 
 .empty1{
     height: 100%;
-    width: 15%;
-    background-color: tomato;
+    width: 5%;
 }
 
 .main_content{
     height: 100%;
     width: 70%;
-    background-color: brown;
 }
 
 .card1 {
@@ -116,16 +119,14 @@
 
 }
 
-.image1 h2 {
+.image1 h2{
     margin-top: 10px;
     font-size: 18px;
-
 }
 
 .image1 img{
     width: 60px;
     height: 60px;
-
 }
 
 .card2{
@@ -194,13 +195,28 @@ font-size: 18px;
 .empty2 {
     height: 100%;
     width: 15%;
-    background-color: tomato;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
+
+.card4{
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #444;
+    background-color: rgba(47, 70, 87, 0.709);
+    margin-bottom: 5%;
+}
+
+.list4 li{
+    color: yellowgreen;
+}
+
 
 .footer {
     height: 8%;
     width: 100%;
-    background-color: steelblue;
+    background-color: rgba(58, 67, 73, 0.247);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,16 +225,31 @@ font-size: 18px;
 .logo2 {
     height: 100%;
     width: 25%;
-    background-color: turquoise;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5%;
+   margin-top: 1%;
 }
+
+.logo2 i{
+font-size: 50px;
+color: tomato;
+}
+
+.logo2 h1{
+    color: aliceblue;
+    font-family: "Playwrite MX"
+}
+
 
 .download{
     height: 100%;
     width: 25%;
-    /* background-color: royalblue; */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1%;
 }
 
 .download a{
@@ -231,14 +262,12 @@ font-size: 18px;
 .customer{
     height: 100%;
     width: 25%;
-    background-color: chocolate;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .customer a{
-
 color: aliceblue;
 text-decoration: none;
 }
